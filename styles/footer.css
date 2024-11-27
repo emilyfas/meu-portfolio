@@ -1,0 +1,36 @@
+footer{
+    padding: 0px var(--padding-sides);
+    color: #fff;
+    text-align: center;
+}
+
+.contact{
+    padding: 100px 0;
+    color: rgb(212, 212, 212);
+}
+
+.contact h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+.contact p{
+    margin-bottom: 30px;
+    color: var(--secondary-color);
+}
+.contact a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.contact a:hover{
+    color: var(--trinary-color);
+}
+footer hr{
+    border-color: #00020f;
+}
+.footer-copy{
+    color: #000e5b;
+    padding: 30px 0;
+}

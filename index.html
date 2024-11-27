@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/file.png">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home-page.css">
     <link rel="stylesheet" href="styles/about-me.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/languages.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <link rel="stylesheet" href="styles/responsive/header-responsive.css">
     <link rel="stylesheet" href="styles/responsive/home-responsive.css">
@@ -16,10 +18,12 @@
     <link rel="stylesheet" href="styles/responsive/about-responsive.css">
     <link rel="stylesheet" href="styles/responsive/projects-responsive.css">
 
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Emilly - Portfolio</title>
 </head>
 <body>
     <header>
@@ -29,9 +33,9 @@
             </div>
             <div class="nav-content-right" id="nav-list-container">
                 <ul id="nav-list">
-                    <li><button>Sobre mim</button></li>
-                    <li><button>Projetos</button></li>
-                    <li><button>Contato</button></li>
+                    <li><button><a href="#about-me">Sobre mim</a></button></li>
+                    <li><button><a href="#projects">Projetos</a></button></li>
+                    <li><button><a href="#contact">Contato</a></button></li>
                 </ul>
                 <button id="open-menu" class="nav-list-toggle-btn"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6H6m12 4H6m12 4H6m12 4H6"/>
@@ -152,7 +156,20 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
+        <div class="contact">
+            <h1>Contato</h1>
+            <p>Fale comigo nas redes abaixo: </p>
+            <a href="https://www.linkedin.com/in/emilly-fernandes"><i class="fi fi-brands-linkedin"></i></a>
+            <a href="https://www.github.com/emilyfas"><i class="fi fi-brands-github"></i></a>
+            <a href="mailto:emilly.fernandesads@gmail.com"><i class="fi fi-rr-envelope-dot"></i></a>
+        </div>
+        <hr>
+        <div class="footer-copy">
+            <p>©2024 por Emilly Fernandes.</p>
+            <p>Todos os direitos reservados.</p>
+        </div>
+        
     </footer>
     <script src="scripts/nav-menu.js"></script>
     <script src="scripts/nav-scroll.js"></script>

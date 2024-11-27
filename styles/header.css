@@ -41,13 +41,17 @@ nav{
     font-size: 17px;
     padding: 8px;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
     border: none;
     border-radius: 3px;
     cursor: pointer;
 }
+#nav-list li button a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: all.5s ease-in-out;
+}
 
-#nav-list li button:hover{
+#nav-list li button:hover a{
     color: var(--trinary-color);
 }
 
