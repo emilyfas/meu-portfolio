@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home-page.css">
+    <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/languages.css">
+
+    <link rel="stylesheet" href="styles/responsive/header-responsive.css">
+    <link rel="stylesheet" href="styles/responsive/home-responsive.css">
+    <link rel="stylesheet" href="styles/responsive/languages-responsive.css">
+    <link rel="stylesheet" href="styles/responsive/about-responsive.css">
+    <link rel="stylesheet" href="styles/responsive/projects-responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-content-left">
+                <p>Emilly Fernandes</p>
+            </div>
+            <div class="nav-content-right" id="nav-list-container">
+                <ul id="nav-list">
+                    <li><button>Sobre mim</button></li>
+                    <li><button>Projetos</button></li>
+                    <li><button>Contato</button></li>
+                </ul>
+                <button id="open-menu" class="nav-list-toggle-btn"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6H6m12 4H6m12 4H6m12 4H6"/>
+                  </svg>
+                  </button>
+                <button id="close-menu" class="nav-list-toggle-btn"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7"/>
+                  </svg>
+                  </button>
+            </div>
+        </nav>
+    </header>   
+    <main>
+        <section id="home-page">
+            <section class="home-page-container home-page-container-left">
+                <div><p>HELLO WORLD</p>
+                    <h1>Eu sou a Emilly,</h1>
+                    <h2 id="text-typing">Estudante de Programação.</h2>
+                    <button class="home-page-btn" onclick="typeWriter()">
+                        <a href="#">FALE COMIGO</a>
+                    </button>
+                </div>
+            </section>
+            <section class="home-page-container home-page-container-right">
+                <!-- <img src="" alt=""> -->
+                 <div class="home-page-circle"></div>
+            </section>
+        </section>
+        <section id="about-me">
+            <div class="about-card">
+                <h1>Sobre mim</h1>
+                <p>Sou <span>Emilly Fernandes</span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ab in esse officiis, nemo cupiditate minus dolore quia adipisci, autem eum fuga? Odit perferendis, atque voluptatem quos sunt accusamus dignissimos dolore aspernatur iusto excepturi reprehenderit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatum corrupti voluptas, suscipit mollitia dolor nostrum fugiat dolorem saepe accusamus nulla dolore magnam eum quisquam! Quibusdam aut quis cumque, tempore corporis, nemo saepe nesciunt porro adipisci repellendus ullam quia maiores officiis aliquam voluptatibus blanditiis, placeat nobis. Quidem placeat nesciunt ducimus laudantium optio fugit aliquam soluta ipsam dolorem perspiciatis consequatur aspernatur deserunt iure dicta, temporibus, labore sunt dignissimos tempora consequuntur. Quas fugit, eius aspernatur distinctio eos quae quisquam! Sequi!</p>
+            </div>
+            
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <ul class="list-projects">
+
+                <li class="project-card">
+                    <img src="images/teste ‐ Feito com o Clipchamp.gif" alt="">
+                    <p class="project-title">Lorem, ipsum dolor.</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti natus adipisci quibusdam!</p>
+                    <button class="project-btn"><a href="https://emilyfas.github.io/The-Office-Survival/" target="_blank">Visitar Projeto</a></button>
+                </li>
+                <li class="project-card">
+                    <img src="images/teste ‐ Feito com o Clipchamp.gif" alt="">
+                    <p class="project-title">Lorem, ipsum dolor.</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti natus adipisci quibusdam!</p>
+                    <button class="project-btn"><a href="https://emilyfas.github.io/The-Office-Survival/" target="_blank">Visitar Projeto</a></button>
+                </li>
+                <li class="project-card">
+                    <img src="images/teste ‐ Feito com o Clipchamp.gif" alt="">
+                    <p class="project-title">Lorem, ipsum dolor.</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti natus adipisci quibusdam!</p>
+                    <button class="project-btn"><a href="https://emilyfas.github.io/The-Office-Survival/" target="_blank">Visitar Projeto</a></button>
+                </li>
+                <li class="project-card">
+                    <img src="images/teste ‐ Feito com o Clipchamp.gif" alt="">
+                    <p class="project-title">Lorem, ipsum dolor.</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti natus adipisci quibusdam!</p>
+                    <button class="project-btn"><a href="https://emilyfas.github.io/The-Office-Survival/" target="_blank">Visitar Projeto</a></button>
+                </li>
+                <li class="project-card">
+                    <img style="width: 170px;" src="https://www.pikpng.com/pngl/b/56-569178_work-in-progress-sign-png-clipart.png" alt="">
+                    <p class="project-title">Em produção</p>
+                    <span style="color: #dfdfdf; font-size: 37px;">...</span>
+                    <p class="project-desc">Novos projetos serão adicionados assim que forem concluídos.</p>              
+                </li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Linguagens</h2>
+            <p>Algumas linguagens que conheço</p>
+            <ul class="languages-list">
+                <li>
+                    <img src="https://brandlogos.net/wp-content/uploads/2021/11/java-logo.png" alt="JAVA">
+                    <span class="language-desc">
+                        <h3>JAVA</h3>
+                        <p>Java é uma linguagem de programação orientada a objetos, conhecida por sua portabilidade e robustez, amplamente utilizada para desenvolver aplicações web, móveis e empresariais.</p>
+                    </span>
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="HTML">
+                    <span class="language-desc">
+                        <h3>HTML</h3>
+                        <p>Linguagem padrão usada para criar e estruturar páginas na web, permitindo a formatação de texto, imagens e outros elementos multimídia em um documento visualmente agradável e navegável.</p>
+                    </span>
+                </li>
+                <li>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS">
+                    <span class="language-desc">
+                        <h3>CSS</h3>
+                        <p>Linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML, permitindo controlar o layout, fontes e outros aspectos visuais das páginas de forma eficiente e flexível.</p>
+                    </span>
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/390px-Unofficial_JavaScript_logo_2.svg.png" alt="JAVASCRIPT">
+                    <span class="language-desc">
+                        <h3>JAVASCRIPT</h3>
+                        <p>Linguagem de programação, amplamente utilizada para criar páginas web interativas, permitindo a manipulação de conteúdo, animações e comunicação com servidores.</p>
+                    </span>
+                </li>
+                <li>
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" alt="PYTHON">
+                    <span class="language-desc">
+                        <h3>PYTHON</h3>
+                        <p>Linguagem de programação conhecida por sua simplicidade e legibilidade, amplamente utilizada para desenvolvimento web, análise de dados, automação e muito mais.</p>
+                    </span>
+                </li>
+                <li>
+                    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MYSQL">
+                    <span class="language-desc">
+                        <h3>MYSQL</h3>
+                        <p>Sistema de gerenciamento de banco de dados, utilizado para armazenar, organizar e recuperar dados em aplicações web e empresariais, conhecido por sua eficiência, escalabilidade e facilidade de uso.</p>
+                    </span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="scripts/nav-menu.js"></script>
+    <script src="scripts/nav-scroll.js"></script>
+    <script src="scripts/home-page-typing.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.nav-content-right{
+    width: 110px;
+}
+
+#nav-list {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color-black);
+    margin-top: 26px;
+    border-radius: 3px;
+}
+
+#nav-list li button{
+    width: 110px;
+}
+
+#open-menu{
+    display: block;
+    float: inline-end;
+}

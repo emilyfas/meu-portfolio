@@ -1,0 +1,29 @@
+@media (max-width: 1140px) {
+    .languages-list li{
+        width: 200px;
+        height: 200px;
+    }
+
+    .languages-list li img{
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .languages-list{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .languages-list li{
+        width: 165px;
+        height: 180px;
+        padding: 0;
+    }
+    .languages-list li img{
+        width: 130px;
+        height: auto;
+    }
+}

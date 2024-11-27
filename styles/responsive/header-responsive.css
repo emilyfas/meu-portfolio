@@ -1,0 +1,43 @@
+/* Responsive Breakpoints */
+@media (max-width: 950px) {
+    nav{
+        padding: 10px;
+    }
+    
+    .nav-content-left{
+        font-size: 20px;
+    }
+
+    .nav-content-right{
+        width: 110px;
+    }
+
+    #nav-list {
+        display: none;
+        position: absolute;
+        background-color: var(--primary-color);
+        margin-top: 42px;
+        border-radius: 3px;
+    }
+
+    #nav-list li button{
+        width: 110px;
+        padding: 15px 5px;
+    }
+
+    #open-menu{
+        display: block;
+        float: inline-end;
+    }
+
+    #open-menu:hover{
+        color: #fff;
+        transition: all .6s ease;
+    }
+
+    #close-menu:hover{
+        color: #fff;
+        transition: all .6s ease;
+    }
+
+}

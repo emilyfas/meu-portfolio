@@ -1,0 +1,29 @@
+#about-me{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    color: #cbcaca;
+    padding: 100px var(--padding-sides);
+    display: grid;
+    place-items: center;
+}
+
+.about-card{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 60px 80px;
+    border-radius: 10px;
+}
+
+.about-card h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about-card p{
+    font-size: 17px;
+}
+
+.about-card p span{
+    color: var(--trinary-color);
+}

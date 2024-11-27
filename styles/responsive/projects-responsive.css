@@ -1,0 +1,10 @@
+@media (max-width: 1200px){
+    .list-projects{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 840px){
+    .list-projects{
+        grid-template-columns: auto;
+    }
+}
