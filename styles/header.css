@@ -1,5 +1,6 @@
 header{
     position: sticky;
+    z-index: 1;
     padding: 0px var(--padding-sides);
     top: 0;
     background-color: var(--primary-color);
@@ -21,9 +22,10 @@ nav{
     padding: 15px 0px;
 }
 
-.nav-content-left{
+.nav-content-left a{
     font-size: 25px;
     font-weight: 200;
+    text-decoration: none;
     color: var(--trinary-color);
     transition: all .5s ease-in-out;
 }
