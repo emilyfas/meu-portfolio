@@ -83,4 +83,18 @@
 .home-page-circle img{
     width: 270px;
     height: 270px;
+    position: relative;
+    animation: pular 2s ease-in-out infinite;
+}
+
+@keyframes pular {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -20px;
+    }
+    100% {
+        top: 0;
+    }
 }

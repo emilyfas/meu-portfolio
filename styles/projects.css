@@ -29,7 +29,7 @@
     height: 400px;
     margin: 20px;
     padding: 40px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .project-card:hover{
@@ -56,7 +56,7 @@
 .project-btn{
     background-color: transparent;
     border: 1px solid #c6c6c6;
-    width: 150px;
+    width: 180px;
     font-size: 17px;
     padding: 10px;
     margin-top: 40px;

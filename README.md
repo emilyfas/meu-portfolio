@@ -16,8 +16,8 @@ Meu nome é Emilly Fernandes e sou uma amante da tecnologia e desenvolvimento de
 
 Aqui estão alguns dos projetos que você encontrará neste repositório:
 
-### 1. [Nome do Projeto](link)
-_descrição
+### 1. [To Do List](https://github.com/emilyfas/todolist.git)
+Aplicação de lista de tarefas desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica!
 
 ## Como contribuir
 
