@@ -16,8 +16,20 @@ Meu nome é Emilly Fernandes e sou uma amante da tecnologia e desenvolvimento de
 
 Aqui estão alguns dos projetos que você encontrará neste repositório:
 
-### 1. [To Do List](https://github.com/emilyfas/todolist.git)
-Aplicação de lista de tarefas desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica!
+### 1. [Calculator](https://github.com/emilyfas/calculator.git)
+Calculadora feita com Python e CustomTkinter. Suporta operações básicas, armazenamento de histórico em CSV e interface personalizada.
+
+### 2. [To Do List](https://github.com/emilyfas/todolist.git)
+Aplicação de lista de tarefas desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica.
+
+### 3. [Mario Game](https://github.com/emilyfas/mario-game.git)
+No Jogo do Mario, o objetivo é ajudar o personagem principal, Mario, a evitar obstáculos que aparecem infinitas vezes na tela.
+
+### 4. [Jogo da Forca](https://github.com/emilyfas/jogo-da-forca-java.git)
+Oferece uma experiência interativa onde o jogador pode inserir suas suposições e receber feedbacks sobre o progresso do jogo.
+
+### 5. [Pokedex](https://github.com/emilyfas/Pokedex-site.git)
+O projeto Pokedex é uma aplicação web que apresenta uma listagem interativa de Pokémon, obtida por meio da API "Poki API".
 
 ## Como contribuir
 
