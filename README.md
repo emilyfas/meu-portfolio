@@ -16,20 +16,46 @@ Meu nome é Emilly Fernandes e sou uma amante da tecnologia e desenvolvimento de
 
 Aqui estão alguns dos projetos que você encontrará neste repositório:
 
+#
+
 ### 1. [Calculator](https://github.com/emilyfas/calculator.git)
 Calculadora feita com Python e CustomTkinter. Suporta operações básicas, armazenamento de histórico em CSV e interface personalizada.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+#
+
 ### 2. [To Do List](https://github.com/emilyfas/todolist.git)
-Aplicação de lista de tarefas desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica.
+Aplicação de lista de tarefas desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica.  
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+#
 
 ### 3. [Mario Game](https://github.com/emilyfas/mario-game.git)
 No Jogo do Mario, o objetivo é ajudar o personagem principal, Mario, a evitar obstáculos que aparecem infinitas vezes na tela.
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+#
+
 ### 4. [Jogo da Forca](https://github.com/emilyfas/jogo-da-forca-java.git)
 Oferece uma experiência interativa onde o jogador pode inserir suas suposições e receber feedbacks sobre o progresso do jogo.
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+#
+
 ### 5. [Pokedex](https://github.com/emilyfas/Pokedex-site.git)
 O projeto Pokedex é uma aplicação web que apresenta uma listagem interativa de Pokémon, obtida por meio da API "Poki API".
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+#
 
 ## Como contribuir
 
